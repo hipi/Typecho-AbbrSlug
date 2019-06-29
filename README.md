@@ -6,6 +6,15 @@
 
 以下参照了 `hexo-abbrlink` 的文档
 
+## 主题 Mirages 不生效问题
+
+将 21 22 行 代码替换如下
+```
+// Typecho_Plugin::factory('Widget_Contents_Post_Edit')->write = array('AbbrSlug_Plugin', 'render');
+// Typecho_Plugin::factory('Widget_Contents_Page_Edit')->write = array('AbbrSlug_Plugin', 'render');
+Typecho_Plugin::factory('Mirages_Plugin')->writePost = array('AbbrSlug_Plugin', 'render');
+Typecho_Plugin::factory('Mirages_Plugin')->writePage = array('AbbrSlug_Plugin', 'render');
+```
 ## 设置:
 
 ```
