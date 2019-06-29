@@ -15,6 +15,9 @@
 Typecho_Plugin::factory('Mirages_Plugin')->writePost = array('AbbrSlug_Plugin', 'render');
 Typecho_Plugin::factory('Mirages_Plugin')->writePage = array('AbbrSlug_Plugin', 'render');
 ```
+
+再将插件 禁用 重启即可 
+
 ## 设置:
 
 ```
