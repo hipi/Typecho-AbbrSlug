@@ -44,7 +44,7 @@ class AbbrSlug_Plugin implements Typecho_Plugin_Interface
                 'crc32' => _t('crc32'),
                 'crc16' => _t('crc16')
             ),
-            'alg-text',
+            'crc32',
             _t('算法'),
             _t('目前支持crc16和crc32，其中crc32是默认的')
         );
@@ -56,7 +56,7 @@ class AbbrSlug_Plugin implements Typecho_Plugin_Interface
                 'hex' => _t('16进制'),
                 'dec' => _t('10进制')
             ),
-            'rep-text',
+            'hex',
             _t('进制显示'),
             _t('其中16进制是默认的')
         );
