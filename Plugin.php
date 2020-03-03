@@ -3,7 +3,7 @@
  * 自动生成缩略名
  *
  * @package AbbrSlug
- * @author crito
+ * @author 羽叶
  * @version 1.0.0
  * @link https://chenyeah.com
  */
